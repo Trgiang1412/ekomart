@@ -3,8 +3,70 @@
     margin: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 :root {
     --button-color: #ef3636;
     --text-hover-color: #ef3636;
     --color-main: #626262;
+}
+.text-0{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    margin-left: 20px;
+}
+.fa-headphones-alt{
+    font-size: 2rem;
+    margin-left: 9rem;
+    margin-top: 0.3rem;
+}
+.text-1{
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: var(--color-main);
+}
+.text-2{
+    font-weight: bold;
+}
+.search{
+    position: relative;
+    margin-left: 2rem;
+}
+.fa-search{
+    position: absolute;
+    color: var(--text-hover-color);
+    left: 2%;
+}
+.input-header{
+    padding: 25px 150px;
+
+}
+.btn-danger{
+    position: absolute;
+    left: 80%;
+}
+.fa-user{
+    margin-left: 7rem;
+    font-size: 1.6rem;
+}
+.fa-heart{
+    margin-left: 1rem;
+    font-size: 1.6rem;
+}
+.fa-shopping-basket{
+    margin-left: 1rem;
+    font-size: 1.6rem;
+}
+.XO{
+    font-size: 1rem;
+}
+.menu-little{
+    background-color: #ef3636;
+    color: white;
+    padding: 10px 40px;
+}
+.item-1 {
+    margin-left: 2rem;
+    font-weight: bold;
 }
