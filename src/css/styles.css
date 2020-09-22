@@ -2,3 +2,9 @@
     padding: 0;
     margin: 0;
 }
+
+:root {
+    --button-color: #ef3636;
+    --text-hover-color: #ef3636;
+    --color-main: #626262;
+}
