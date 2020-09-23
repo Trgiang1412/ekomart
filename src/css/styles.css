@@ -50,8 +50,6 @@
 
 .search {
     position: relative;
-    margin-left: 2rem;
-    margin-top: 3rem !important;
 }
 
 .fa-search {
@@ -64,9 +62,13 @@
     padding: 25px 150px;
 }
 
+.input-header:focus {
+    border-color: red;
+}
+
 .btn-danger {
     position: absolute;
-    left: 80%;
+    left: 99%;
 }
 
 .icon-list {
@@ -101,4 +103,9 @@
 .item-1 {
     margin-left: 2rem;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.item-1:hover {
+    color: red;
 }
