@@ -31,7 +31,6 @@
 }
 .search{
     position: relative;
-    margin-left: 2rem;
 }
 .fa-search{
     position: absolute;
@@ -40,11 +39,13 @@
 }
 .input-header{
     padding: 25px 150px;
-
+}
+.input-header:focus{
+    border-color: red;
 }
 .btn-danger{
     position: absolute;
-    left: 80%;
+    left: 99%;
 }
 .fa-user{
     margin-left: 7rem;
@@ -70,3 +71,7 @@
     margin-left: 2rem;
     font-weight: bold;
 }
+.item-1:hover{
+    color: red;
+}
+
