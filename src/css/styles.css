@@ -4,22 +4,32 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
 :root {
     --button-color: #ef3636;
     --text-hover-color: #ef3636;
     --color-main: #626262;
 }
-.text-0{
+
+.logo {
+    margin-top: 4em;
+    margin-left: 4.5em;
+}
+
+.text-0 {
     font-weight: bold;
     font-size: 30px;
     font-family: 'Pacifico', cursive;
     margin-left: 20px;
 }
-.fa-headphones-alt{
+
+.fa-headphones-alt {
     font-size: 2rem;
     margin-left: 9rem;
-    margin-top: 0.3rem;
+    margin-top: 2em;
+}
+
+.layer-2 {
+    left: -8%;
 }
 .sdt{
     margin-left: 0.5rem;
@@ -32,43 +42,59 @@
     font-weight: bold;
     color: var(--color-main);
 }
-.text-2{
+
+.text-2 {
     font-weight: bold;
+    font-size: 1.05em;
 }
-.search{
+
+.search {
     position: relative;
 }
-.fa-search{
+
+.fa-search {
     position: absolute;
-    color: var(--text-hover-color);
+    color: var(--button-color);
     left: 2%;
 }
-.input-header{
+
+.input-header {
     padding: 25px 150px;
 }
-.input-header:focus{
+
+.input-header:focus {
     border-color: red;
 }
-.btn-danger{
+
+.btn-danger {
     position: absolute;
     left: 99%;
 }
-.fa-user{
-    margin-left: 7rem;
+
+.icon-list {
+    margin-top: 4em;
+    margin-left: -12em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fa-user {
     font-size: 1.6rem;
 }
-.fa-heart{
-    margin-left: 1rem;
+
+.fa-heart {
     font-size: 1.6rem;
 }
-.fa-shopping-basket{
-    margin-left: 1rem;
+
+.fa-shopping-basket {
     font-size: 1.6rem;
 }
-.XO{
+
+.XO {
     font-size: 1rem;
 }
-.menu-little{
+
+.menu-little {
     background-color: #ef3636;
     color: white;
     padding: 15px 30px;
@@ -84,12 +110,10 @@
 .nav-3{
     margin-bottom: 32rem;
 }
+
 .item-1 {
     margin-left: 3rem;
     font-weight: bold;
-}
-.item-1:hover{
-    color: red;
 }
 
 /* Dropdown menu-1 */
