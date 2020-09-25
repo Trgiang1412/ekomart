@@ -97,8 +97,14 @@
     padding: 1rem 3rem;
 }
 
-.box-big {
-    border: 1px solid #bdc3c7;
+.text-3 {
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 1em;
+}
+
+.text-3:hover .box-big {
+    visibility: visible;
 }
 
 .nav-3 {
@@ -111,26 +117,11 @@
 }
 
 .item-1:hover {
-    color: var(--text-hover-color)!important;
+    color: var(--text-hover-color) !important;
 }
 
 
 /* Dropdown menu-1 */
-
-.tack-1 {
-    border: 1px solid #bdc3c7;
-    height: 3.5rem;
-    padding-top: 1rem;
-}
-
-.tack-1:hover {
-    color: var(--text-hover-color);
-}
-
-.menu-drop {
-    margin-left: 1rem;
-    width: 15.5rem;
-}
 
 
 /* font-size icon */
@@ -157,88 +148,5 @@
     margin-left: 0.5rem;
 }
 
-.medical-menu {
-    margin-left: 20rem;
-    visibility: hidden;
-}
-
 
 /* bảng 1 */
-
-.dropdown:hover>.dropdown-menu {
-    display: block;
-}
-
-.dropdown>.art:active {
-    pointer-events: none;
-}
-
-.box-0 {
-    margin-left: 18rem;
-    box-shadow: 5px 5px 8px #888888;
-    width: 600px;
-    height: 538px;
-}
-
-.box-1 {
-    margin-top: 1rem;
-    margin-left: 1rem;
-}
-
-.text-11,
-.text-12 {
-    margin-left: 1.5rem;
-}
-
-u {
-    color: #f1c40f;
-}
-
-.box-2 {
-    margin-top: 1rem;
-    margin-left: 10rem;
-}
-
-.text-6 {
-    font-size: 12px;
-    margin-left: 4.4rem;
-}
-
-.text-7 {
-    font-size: 25px;
-    color: #2980b9;
-    margin-left: 2.8rem;
-}
-
-.text-8 {
-    font-size: 27px;
-    font-weight: bold;
-    color: #2980b9;
-}
-
-.text-9 {
-    font-size: 12px;
-    margin-left: 7rem;
-}
-
-.text-10 {
-    width: 3.9rem;
-    background: #bdc3c7;
-    margin-left: 5.5rem;
-    font-weight: bold;
-}
-
-
-/* dropmenu -2  */
-
-.box-4 {
-    margin-top: 2rem;
-    margin-right: 10rem;
-}
-
-.text-13 {
-    margin-left: 1rem;
-}
-
-
-/* dropmenu-3 */
