@@ -2,24 +2,25 @@
 <html lang="en">
 
 <head>
-    <title>Title</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 
-    <!-- font-awsome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
-    <!-- css -->
-    <link rel="stylesheet" href="src/css/styles.css" />
+  <!-- font-awsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <!-- css -->
+  <link rel="stylesheet" href="src/css/styles.css" />
 </head>
 
 <body>
   <header>
     <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light nav-menu-1">
         <div class="col-md-1"> <a class="navbar-brand text-0" href="#">Ekommart</a></div>
         <div class="d-flex col-md-4">
           <div class="text-danger"><i class="fas fa-headphones-alt"></i></div>
@@ -42,182 +43,217 @@
           <i class="fas fa-shopping-basket"><span class="XO">$0.00</span></i>
         </div>
       </nav>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-        <div class=" col-md-3  ">
-          <div class="menu-little">
-            <i class="fas fa-bars"></i>
-            <span class="text-3">All Departments</span>
-          </div>
-          <div class="box-big">
-            <div class="dropdown">
-              <a href="#" class="dropdown-item tack-1 btn art" role="button" id="dropdownMenuLink"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-laptop-medical"></i>
-                <span class="ic-text-1">Electronics</span>
-                <i class="fas fa-angle-right"></i>
-              </a>
-              <div class="dropdown-menu box-0" aria-labelledby="dropdownMenuLink">
-                <div class="d-flex">
-                  <div class="d-flex flex-column box-1">
-                    <h6 class="text-11">Computers & Accessories</h6>
-                    <a class="dropdown-item" href="#">All Computers & Accessories</a>
-                    <a class="dropdown-item" href="#">Laptops, Desktops & Monitors</a>
-                    <a class="dropdown-item" href="#">Printers & Ink</a>
-                    <a class="dropdown-item" href="#">Networking & Internet Devices</a>
-                    <a class="dropdown-item" href="#">Computer Accessories</a>
-                    <a class="dropdown-item" href="#">Software</a>
-                    <a class="dropdown-item" href="#"><u>More</u></a>
-                  </div>
-                  <div class="d-flex flex-column box-1">
-                    <h6 class="text-12">Office & Stationery</h6>
-                    <a class="dropdown-item" href="#">All Audio & Video</a>
-                    <a class="dropdown-item" href="#">Televisions</a>
-                    <a class="dropdown-item" href="#">Headphones</a>
-                    <a class="dropdown-item" href="#">Speakers</a>
-                    <a class="dropdown-item" href="#">Audio & Video Accessories</a>
-                    <a class="dropdown-item" href="#"><u>More</u></a>
-                  </div>
-                </div>
-                <div class="box-2">
-                  <div class="d-flex flex-column">
-                    <div class="box-3">
-                      <div class="text-6">ELECTRONICS</div>
-                      <div class="text-7">Be movie</div>
-                      <div class="text-8">night ready</div>
-                      <div class="text-9">ONlY</div>
-                      <div class="text-10">$195.99</div>
+      <!-- ...............het menu-1............................................ -->
+      <nav class="navbar navbar-expand-lg navbar-light  ">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <div class="menu-little">
+              <i class="fas fa-bars"></i>
+              <span class="text-3">All Departments</span>
+            </div>
+            <!-- ..............menu-2............................. -->
+            <ul class="navbar-nav 2 d-flex flex-column">
+              <li class="nav-item navbar-big-1">
+                <a href="#" class="dropdown-item tack-1 btn art" role="button" id="dropdownMenuLink"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fas fa-laptop-medical"></i>
+                  <span class="ic-text-1">Electronics</span>
+                  <i class="fas fa-angle-right t-1"></i>
+                </a>
+                <!-- ............MENU 2-1 ..................... -->
+                <ul class="navbar-nav navbar-small-1">
+                  <div class="d-flex">
+                    <div class="d-flex flex-column box-1">
+                      <h6 class="text-11">Computers & Accessories</h6>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#">All Computers & Accessories</a></li>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#">Laptops, Desktops & Monitors</a>
+                      </li>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#">Printers & Ink</a></li>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#">Networking & Internet Devices</a>
+                      </li>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#">Computer Accessories</a></li>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#">Software</a></li>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#"><u>More</u></a></li>
+                      <div class="d-flex ">
+                        <div class="box-3 flex-column">
+                          <div class="text-6">ELECTRONICS</div>
+                          <div class="text-7">Be movie</div>
+                          <div class="text-8">night ready</div>
+                          <div class="text-9">ONlY</div>
+                          <div class="text-10">$195.99</div>
+                        </div>
+                        <div class="image">
+                          <img src="img/bgmenu_electronic.png" alt="" class="img1">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column box-1">
+                      <h6 class="text-12">Office & Stationery</h6>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#">All Audio & Video</a></li>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#">Televisions</a></li>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#">Headphones</a></li>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#">Speakers</a></li>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#">Audio & Video Accessories</a></li>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#"><u>More</u></a></li>
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
-            <!-- hết dropdown menu 1 -->
-            <a class="dropdown-item tack-1 " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              <i class="fas fa-mitten"></i>
-              <span class="ic-text-1">Home & Garden</span>
-            </a>
-            <!-- dropdown menu 2 -->
-            <div class="dropdown">
-              <a class="dropdown-item tack-1 btn art" href="#"  role="button" id="dropdownMenuLink"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-stopwatch"></i>
-                <span class="ic-text-1">Beauty & Health</span>
-                <i class="fas fa-angle-right"></i>
-              </a>
-              <div class="dropdown-menu box-0" aria-labelledby="dropdownMenuLink">
-                <div class="d-flex">
-                  <div class="d-flex flex-column box-1">
-                    <h6 class="text-11">Vitamin & Supplements</h6>
-                    <a class="dropdown-item" href="#">Shop by Concern</a>
-                    <a class="dropdown-item" href="#">Multivitamins</a>
-                    <a class="dropdown-item" href="#">Letter Vitamins A-K</a>
-                    <a class="dropdown-item" href="#">Herbs</a>
-                    <a class="dropdown-item" href="#"><u>More</u></a>
+                </ul>
+              </li>
+              <!-- ..........KET THUC MENU 2-1.............................. -->
+              <li class="nav-item">
+                <a class="dropdown-item tack-1 " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  <i class="fas fa-mitten"></i>
+                  <span class="ic-text-1">Home & Garden</span>
+                </a>
+              </li>
+              <!--..............BẮT ĐẦU MENU 2-2............................. -->
+              <li class="nav-item navbar-big-2">
+                <a class="dropdown-item tack-1 btn art" href="#" role="button" id="dropdownMenuLink"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fas fa-stopwatch"></i>
+                  <span class="ic-text-1">Beauty & Health</span>
+                  <i class="fas fa-angle-right t-2"></i>
+                </a>
+                <!-- .....................MENU 2-2.............................. -->
+                <ul class="navbar-nav navbar-small-2">
+                  <div class="d-flex">
+                    <div class="d-flex flex-column box-1">
+                      <h6 class="text-11">Vitamin & Supplements</h6>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#">Shop by Concern</a></li>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#">Multivitamins</a></li>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#">Letter Vitamins A-K</a></li>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#">Herbs</a></li>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#"><u>More</u></a></li>
+                      <div class="d-flex border-top-1 ">
+                        <div class="d-flex flex-column box-small-1">
+                          <h6 class="text-11">Beauty</h6>
+                          <li class="nav-item "><a class="hov-1 dropdown-item" href="#">Skin Care</a></li>
+                          <li class="nav-item "><a class="hov-1 dropdown-item" href="#">Hair Care</a></li>
+                          <li class="nav-item "><a class="hov-1 dropdown-item" href="#">Cosmetics</a></li>
+                          <li class="nav-item "><a class="hov-1 dropdown-item" href="#">Fragrance</a></li>
+                          <li class="nav-item "><a class="hov-1 dropdown-item" href="#"><u>More</u></a></li>
+                        </div>
+                        <div class="box-small-2 flex-column">
+                          <div class="text-b3-1">72 HOUR SALE!</div>
+                          <div class="text-b3-2">20% off</div>
+                          <div class="text-b3-3">All products</div>
+                        </div>
+                        <div class="image">
+                          <img src="img/cooking.png" alt="" class="img2">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column box-2">
+                      <h6 class="text-12">Personal Care</h6>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#">Oral Care</a></li>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#">Shaving & Grooming</a></li>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#">Hair Care</a></li>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#">Pregnancy & Fertility</a></li>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#"><u>More</u></a></li>
+                    </div>
                   </div>
-                  <div class="d-flex flex-column box-1">
-                    <h6 class="text-12">Personal Care</h6>
-                    <a class="dropdown-item" href="#">Oral Care</a>
-                    <a class="dropdown-item" href="#">Shaving & Grooming</a>
-                    <a class="dropdown-item" href="#">Hair Care</a>
-                    <a class="dropdown-item" href="#">Pregnancy & Fertility</a>
-                    <a class="dropdown-item" href="#"><u>More</u></a>
+                </ul>
+              </li>
+              <!-- ..........KẾT THÚC MENU 2-2........................................................ -->
+              <li class="nav-item"> <a class="dropdown-item tack-1" href="#">
+                  <i class="fab fa-centos"></i>
+                  <span class="ic-text-1">Toys & Kids</span>
+                </a>
+              </li>
+              <!-- ...............BẮT ĐẦU MENU 2-3..................................................... -->
+              <li class="nav-item navbar-big-3">
+                <a class="dropdown-item tack-1 btn art" href="#" role="button" id="dropdownMenuLink"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fas fa-tshirt"></i>
+                  <span class="ic-text-1">Fashion</span>
+                  <i class="fas fa-angle-right t-3"></i>
+                </a>
+                <ul class="navbar-nav navbar-small-3">
+                  <div class="d-flex">
+                    <div class="d-flex flex-column box-1">
+                      <h6 class="text-11">Man</h6>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#">Outerwear</a></li>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#">Jackets</a></li>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#">T-shirt and tops</a></li>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#">Shart</a></li>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#">Jeans</a></li>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#"><u>More</u></a></li>
+                      <div class="d-flex ">
+                        <div class="d-flex flex-column box-small-3">
+                          <h6 class="text-12">Kid</h6>
+                          <li class="nav-item "><a class="hov-1 dropdown-item" href="#">Dungarees</a></li>
+                          <li class="nav-item "><a class="hov-1 dropdown-item" href="#">Shart</a></li>
+                          <li class="nav-item "><a class="hov-1 dropdown-item" href="#">T-shirt and tops</a></li>
+                          <li class="nav-item "><a class="hov-1 dropdown-item" href="#"><u>More</u></a></li>
+                        </div>
+                        <div class="box-mn3 flex-column">
+                          <div class="text-b3-1">72 HOUR SALE!</div>
+                          <div class="text-b3-2">20% off</div>
+                          <div class="text-b3-3">All products</div>
+                        </div>
+                        <div class="image-3">
+                          <img src="img/van.png" alt="" class="img3">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column box-5">
+                      <h6 class="text-11">Wommen</h6>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#">Knitwear</a></li>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#">Skirts</a></li>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#">T-shirt and tops</a></li>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#">Sweatshirts</a></li>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#">Dress</a></li>
+                      <li class="nav-item "><a class="hov-1 dropdown-item" href="#"><u>More</u></a></li>
+                    </div>
                   </div>
-                </div>
-                <div class="box-4">
-                  <div class="d-flex flex-column">
-                   <h6 class="text-13">Beauty</h6>
-                   <a class="dropdown-item" href="#">Skin</a>
-                   <a class="dropdown-item" href="#">Hair Care</a>
-                   <a class="dropdown-item" href="#">Cosmetics</a>
-                   <a class="dropdown-item" href="#">Fragrance</a>
-                   <a class="dropdown-item" href="#"><u>More</u></a>
-                  </div>
-                </div>
-              </div>
-            </div>
+                </ul>
+              </li>
+              <!-- ................KẾT THÚC MENU 2-3.................................. -->
+              <li class="nav-item list-color">
+                <a class="dropdown-item tack-1" href="#">
+                  <i class="fas fa-volleyball-ball"></i>
+                  <span class="ic-text-1">Sporting Goods</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="dropdown-item tack-1" href="#">
+                  <i class="fas fa-tachometer-alt"></i>
+                  <span class="ic-text-1">Automotive</span>
+                </a>
 
-            <a class="dropdown-item tack-1" href="#">
-              <i class="fab fa-centos"></i>
-              <span class="ic-text-1">Toys & Kids</span>
-            </a>
-            <!-- dropdown menu-3 ............................................................-->
-            <div class="dropdown">
-              <a class="dropdown-item tack-1 btn art" href="#" role="button" id="dropdownMenuLink"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-tshirt"></i>
-                <span class="ic-text-1">Fashion</span>
-                <i class="fas fa-angle-right"></i>
-              </a>
-              <div class="dropdown-menu box-0" aria-labelledby="dropdownMenuLink">
-                <div class="d-flex">
-                  <div class="d-flex flex-column box-1">
-                    <h6 class="text-11">Man</h6>
-                    <a class="dropdown-item" href="#">Outerwear</a>
-                    <a class="dropdown-item" href="#">Jackets</a>
-                    <a class="dropdown-item" href="#">T-shirt and tops</a>
-                    <a class="dropdown-item" href="#">Short</a>
-                    <a class="dropdown-item" href="#">Jeans</a>
-                    <a class="dropdown-item" href="#"><u>More</u></a>
-                  </div>
-                  <div class="d-flex flex-column box-1">
-                    <h6 class="text-12">Women</h6>
-                    <a class="dropdown-item" href="#">Knitwear</a>
-                    <a class="dropdown-item" href="#">Skirts</a>
-                    <a class="dropdown-item" href="#">T-shirt and tops</a>
-                    <a class="dropdown-item" href="#">Sweatshirts</a>
-                    <a class="dropdown-item" href="#">Dress</a>
-                    <a class="dropdown-item" href="#"><u>More</u></a>
-                  </div>
-                </div>
-                <div class="box-4">
-                  <div class="d-flex flex-column">
-                   <h6 class="text-13">Kid</h6>
-                   <a class="dropdown-item" href="#">Dungarees</a>
-                   <a class="dropdown-item" href="#">Short</a>
-                   <a class="dropdown-item" href="#">T-shirt and tops</a>
-                   <a class="dropdown-item" href="#"><u>More</u></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <a class="dropdown-item tack-1" href="#">
-              <i class="fas fa-volleyball-ball"></i>
-              <span class="ic-text-1">Sporting Goods</span>
-            </a>
-            <a class="dropdown-item tack-1" href="#">
-              <i class="fas fa-tachometer-alt"></i>
-              <span class="ic-text-1">Automotive</span>
-            </a>
-            <a class="dropdown-item tack-1" href="#">
-              <i class="fas fa-paw"></i>
-              <span class="ic-text-1">Pet Supplies</span>
-            </a>
-            <a class="dropdown-item tack-1" href="#">
-              <i class="fab fa-ideal"></i>
-              <span class="ic-text-1">Daily Deals</span>
-            </a>
-          </div>
-        </div>
-        <div class="collapse navbar-collapse col-md-6 nav-3">
-          <ul class="navbar-nav">
-            <li class="nav-item text-danger">
-              <a class="nav-link text-danger item-1" href="#">Home <i class="fas fa-angle-down"></i></a>
-            </li>
-            <li class="nav-item  item-1">
-              <a class="nav-link nav-text" href="#">About</a>
-            </li>
-            <li class="nav-item  item-1">
-              <a class="nav-link nav-text" href="#">Shop <i class="fas fa-angle-down"></i></a>
-            </li>
-            <li class="nav-item  item-1">
-              <a class="nav-link nav-text" href="#">Page <i class="fas fa-angle-down"></i></a>
-            </li>
-            <li class="nav-item  item-1">
-              <a class="nav-link nav-text" href="#">Contact <i class="fas fa-angle-down"></i></a>
-            </li>
-          </ul>
-        </div>
+
+              </li>
+              <li class="nav-item">
+                <a class="dropdown-item tack-1" href="#">
+                  <i class="fas fa-paw"></i>
+                  <span class="ic-text-1">Pet Supplies</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="dropdown-item tack-1" href="#">
+                  <i class="fab fa-ideal"></i>
+                  <span class="ic-text-1">Daily Deals</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item text-danger">
+            <a class="nav-link text-danger item-1" href="#">Home <i class="fas fa-angle-down"></i></a>
+          </li>
+          <li class="nav-item  item-1">
+            <a class="nav-link nav-text" href="#">About</a>
+          </li>
+          <li class="nav-item  item-1">
+            <a class="nav-link nav-text" href="#">Shop <i class="fas fa-angle-down"></i></a>
+          </li>
+          <li class="nav-item  item-1">
+            <a class="nav-link nav-text" href="#">Page <i class="fas fa-angle-down"></i></a>
+          </li>
+          <li class="nav-item  item-1">
+            <a class="nav-link nav-text" href="#">Contact <i class="fas fa-angle-down"></i></a>
+          </li>
+        </ul>
       </nav>
     </div>
   </header>
