@@ -93,13 +93,16 @@
 }
 
 /* Dropdown menu-1 */
+.nav-menu-1{
+    border-bottom: 1px solid#ced6e0;
+}
 .tack-1{
   border: 1px solid #bdc3c7;
    height: 3.5rem;
    padding-top: 1rem;
 }
-.tack-1:hover{
-    color: red;
+.list-color:hover>.tack-1{
+     color: red;
 }
 .menu-drop{
     margin-left: 1rem;
@@ -133,37 +136,12 @@
 .fa-ideal{
     font-size: 1.3rem;
 }
-.fa-angle-right{
-    margin-left: 6rem;
-}
 /* hết */
 
 .ic-text-1{
     margin-left: 0.5rem;
 }
-.medical-menu{
-    margin-left: 20rem;
-    visibility: hidden;
-}
-/* bảng 1 */
-.dropdown:hover>.dropdown-menu {
-    display: block;
-  }
-  
-  .dropdown>.art:active {
-      pointer-events: none;
-  }
-.box-0{
-    margin-left: 18rem;
-    box-shadow: 5px 5px 8px #888888;
-    width: 600px;
-    height: 538px;
 
-}
-.box-1{
-    margin-top: 1rem;
-    margin-left: 1rem;
-}
 .text-11{
     margin-left: 1.5rem;
 }
@@ -173,10 +151,7 @@
 u{
     color: #f1c40f;
 }
-.box-2{
-    margin-top: 1rem;
-    margin-left: 10rem;
-}
+
 .text-6{
     font-size: 12px;
     margin-left: 4.4rem;
@@ -209,5 +184,167 @@ u{
 .text-13{
     margin-left: 1rem;
 }
-/* dropmenu-3 */
+/* menu 2.1 */
+.navbar-big-1{
+    position: relative;
+}
+.navbar-small-1{
+    position: absolute;
+    margin-left: 19rem;
+    border: 1px solid #bdc3c7;
+    top: 0;
+    box-shadow: 5px 5px 8px #888888;
+    width: 600px;
+    height: 480px;
+    overflow: hidden;
+    border: none;
+    visibility: hidden;
+}
+.navbar-big-1:hover>.navbar-small-1{
+    visibility: visible;
+}
 
+.image{
+    position: absolute;
+    z-index: 50;
+    width: 260px;
+    height: 136px;
+    top: 50%;
+}
+.img-1{
+    width: 260px;
+    height: 136px;
+}
+.box-3{
+    position: absolute;
+    z-index: 60;
+    left: 20%;
+    bottom: 13.5%;
+}
+.hov-1{
+    font-size: 14px;
+}
+.hov-1:hover{
+    color: red;
+}
+.t-1{
+    margin-left: 8rem;
+}
+/* ..........kết thúc menu 2-1 ..................*/
+/* ..........bắt đầu menu 2-2 ..................... */
+.t-2{
+    margin-left: 6rem;
+}
+.navbar-big-2{
+    position: relative;
+}
+.navbar-small-2{
+    position: absolute;
+    margin-left: 19rem;
+    border: 1px solid #bdc3c7;
+    top: -200%;
+    box-shadow: 5px 5px 8px #888888;
+    width: 600px;
+    height: 480px;
+    overflow: hidden;
+    border: none;
+    visibility: hidden;
+   
+}
+.navbar-big-2:hover>.navbar-small-2{
+    visibility: visible;
+}
+.box-1{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.box-2{
+    margin-top: 1rem;
+    margin-left: 4rem;
+}
+.box-small-1{
+    position: relative;
+    z-index: 60;
+    margin-top: 1rem;
+}
+.box-small-2{
+    position: absolute;
+    z-index: 60;
+    left: 70%;
+    bottom: 30%;
+}
+.border-top-1{
+    border-top: 1px solid #dfe6e9;
+}
+.text-b3-1{
+    font-size: 13px;
+    margin-left: 3rem;
+}
+.text-b3-2{
+    font-size: 1.4rem;
+    margin-left: 0.8rem;
+    color: #ff6b81;
+    margin-left: 3.5rem;
+}
+.text-b3-3{
+    font-size: 1.6rem;
+    color: #ff6b81;
+    font-weight: bold;
+}
+.img2{
+    margin-top: 4.5rem;
+}
+/* .........................KẾT THÚC MENU 2-2............. */
+/* .........................BẮT ĐẦU MENU 2-3.............. */
+.t-3{
+    margin-left: 9.2rem;
+}
+.navbar-big-3{
+    position: relative;
+}
+.navbar-small-3{
+    position: absolute;
+    margin-left: 19rem;
+    border: 1px solid #bdc3c7;
+    top: -400%;
+    box-shadow: 5px 5px 8px #888888;
+    width: 600px;
+    height: 480px;
+    overflow: hidden;
+    border: none;
+    visibility: hidden;
+}
+.navbar-big-3:hover>.navbar-small-3{
+    visibility: visible;
+}
+.box-5{
+    z-index: 60;
+    margin-top: 1rem;
+    margin-left: 7rem;
+}
+.box-small-3{
+    position: absolute;
+    z-index: 60;
+    border-top: 1px solid#dcdde1;
+    margin-top: 1rem;
+    
+}
+.image-3{
+    position: absolute;
+    z-index: 50;
+    top: 20%;
+    left: 0%;
+    width: 335px;
+    height: 180px;
+}
+.img3{
+    position: absolute;
+    width: 580px;
+    height: 380px;
+}
+.box-mn3{
+    position: absolute;
+    z-index: 60;
+    left: 28%;
+    bottom: 30%;
+}
