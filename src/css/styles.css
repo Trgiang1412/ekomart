@@ -69,14 +69,51 @@
 .fa-shopping-basket {
   font-size: 1.6rem;
 }
-
+/* ............form-user..................... */
 .fa-user {
   position: relative;
+  z-index: 10;
   margin-left: 7rem;
 }
 .people-menu{
   position: absolute;
+  z-index: 300;
+  box-shadow: 1px 1px 1px 1px #b2bec3;
+  border-top: red;
+  margin-top: 1rem ;
+  left: -30%;
+  background: white;
+  visibility: hidden;
 }
+.col-md-3:hover>.people-menu{
+  visibility: visible;
+}
+.user-text{
+ position: absolute;
+ top: 5%;
+}
+.user-text-1{
+  position: absolute;
+  right: 0%;
+  top: 5%;
+  color: red;
+}
+.user-text-1:hover{
+  text-decoration: underline red;
+}
+.form-user{
+  margin-top: 2rem;
+}
+.button-user{
+  position: absolute ;
+ padding: 5px 80px;
+ left: 10%;
+}
+.link-user{
+  margin-top: 1rem;
+  color: red;
+}
+/* ............ket thuc form-user */
 .fa-heart {
   margin-left: 1rem;
 }
@@ -501,4 +538,49 @@ u {
 }
 .blog-menu:hover>.blog-menu-small{
   visibility: visible;
+}
+/* ..................hết blog.................................... */
+/* ..........................bắt đầu page......................... */
+.pages-menu{
+  position: relative;
+}
+.pages-menu-small{
+  position: absolute;
+  box-shadow: 1px 1px 1px 1px #b2bec3;
+  padding-top: 1rem;
+  width: 800px;
+  height: 350px;
+  left: -350%;
+  overflow: hidden;
+  visibility: hidden;
+}
+.pages-menu:hover>.pages-menu-small{
+  visibility: visible;
+}
+.img-5{
+  position: absolute;
+  z-index: 50;
+  left: 16%;
+  bottom: 0%;
+}
+.pages-text{
+  z-index: 60;
+  margin-top: 3rem;
+  margin-left: 5rem;
+}
+.pages-text-1{
+  font-size: 13px;
+}
+.pages-text-2{
+  font-size: 27px;
+  color: #e17055;
+}
+.pages-text-3{
+  font-size: 27px;
+  color: #e17055;
+  font-weight: bold;
+}
+.pages-text-4{
+  color: black;
+  font-weight: bold;
 }

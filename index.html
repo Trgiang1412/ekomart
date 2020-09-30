@@ -42,21 +42,19 @@
         <div class="col-md-3">
           <i class="far fa-user"></i>
           <div class="people-menu">
-              <form class="px-4 py-3">
-                <div class="form-group">
-                  <label for="exampleDropdownFormEmail1">Username or email</label>
-                  <input type="email" class="form-control" id="Username or email"
-                    placeholder="Username">
-                </div>
-                <div class="form-group">
-                  <label for="exampleDropdownFormPassword1">Password</label>
-                  <input type="password" class="form-control" id="Password" placeholder="Password">
-                </div>
-                <button type="submit" class="btn btn-primary">Sign in</button>
-              </form>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">New around here? Sign up</a>
-              <a class="dropdown-item" href="#">Forgot password?</a>
+            <p class="user-text">Sign in</p> <p class="user-text-1">Create an Account</p>
+            <form class="px-4 py-3 form-user">
+              <div class="form-group">
+                <label for="exampleDropdownFormEmail1">Username or email</label>
+                <input type="email" class="form-control" id="Username or email" placeholder="Username">
+              </div>
+              <div class="form-group">
+                <label for="exampleDropdownFormPassword1">Password</label>
+                <input type="password" class="form-control" id="Password" placeholder="Password">
+              </div>
+              <button type="submit" class="btn btn-danger button-user">LOGIN</button>
+            </form>
+            <a class="dropdown-item link-user" href="#">Lost your password?</a>
           </div>
           <i class="far fa-heart"></i>
           <i class="fas fa-shopping-basket"><span class="XO">$0.00</span></i>
@@ -465,8 +463,44 @@
             </ul>
           </li>
           <!-- ...................HẾT MENU BLOG.............................. -->
-          <li class="nav-item">
-            <a class="nav-link nav-text item-1" href="#">Page <i class="fas fa-angle-down"></i></a>
+          <!-- ...................BẮT ĐẦU PAGE ........................................ -->
+          <li class="nav-item  pages-menu">
+            <a class="nav-link nav-text item-1 " href="#">Page <i class="fas fa-angle-down"></i></a>
+            <ul class="navbar-nav pages-menu-small">
+              <div class="d-flex ">
+                <div class="d-flex flex-column">
+                  <h6 class="text-13">Pre-built Pages</h6>
+                  <li class="nav-item">
+                    <a class="hov-1 dropdown-item" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="hov-1 dropdown-item" href="#">FAQ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="hov-1 dropdown-item" href="#">404 Pages</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="hov-1 dropdown-item" href="#">Login</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="hov-1 dropdown-item" href="#">Shipping Method</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="hov-1 dropdown-item" href="#">Payment Method</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="hov-1 dropdown-item" href="#">Oder Tracking</a>
+                  </li>
+                </div>
+                <div class="d-flex flex-column pages-text">
+                  <div class="pages-text-1">BEST SELLERS</div>
+                  <div class="pages-text-2">Kidchen</div>
+                  <div class="pages-text-3">& Dinning</div>
+                  <div><u class="pages-text-4">Shop now</u></div>
+                </div>
+                <img src="img/table.png" alt="" class="img-5">
+              </div>
+            </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link nav-text item-1" href="#">Contact</a>
