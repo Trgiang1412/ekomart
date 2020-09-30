@@ -61,7 +61,7 @@
 
 .btn-danger {
   position: absolute;
-  left: 99%;
+  left: 90%;
 }
 
 .fa-user,
@@ -71,9 +71,12 @@
 }
 
 .fa-user {
+  position: relative;
   margin-left: 7rem;
 }
-
+.people-menu{
+  position: absolute;
+}
 .fa-heart {
   margin-left: 1rem;
 }
@@ -233,10 +236,12 @@ u {
   overflow: hidden;
   border: none;
   visibility: hidden;
+ 
 }
 
 .navbar-big-1:hover > .navbar-small-1 {
   visibility: visible;
+
 }
 
 .image {
@@ -264,7 +269,7 @@ u {
 }
 
 .hov-1 {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .hov-1:hover {
@@ -415,4 +420,85 @@ u {
   z-index: 60;
   left: 28%;
   bottom: 30%;
+}
+/* .......................shop.................................... */
+.shop-menu{
+  position: relative;
+}
+.shop-menu-small{
+  position: absolute;
+  box-shadow: 1px 1px 1px 1px #b2bec3;
+  width: 800px;
+  height: 580px;
+  left: -150%;
+  overflow: hidden;
+  visibility: hidden;
+}
+.shop-menu:hover>.shop-menu-small{
+  visibility: visible;
+}
+.shop-menu-small-1, .shop-menu-small-2{
+  margin-top: 2rem;
+  padding-left: 2rem;
+}
+.text-13{
+  font-size: 22px;
+  font-weight: 400;
+  margin-left: 1.5rem;
+
+}
+.shop-menu-list-1{
+  margin-left: 3.5rem;
+}
+.img-4{
+  position: absolute;
+  z-index: 40;
+  left: 15%;
+  top: 45%;
+
+}
+.mg-t{
+  margin-top: 0.5rem;
+}
+.shop-text{
+  margin-left: 7rem;
+  margin-top: 2rem;
+  z-index: 50;
+}
+.shop-text-1{
+  font-size: 12px;
+}
+.shop-text-2, .shop-text-3{
+  font-size: 25px;
+  color: #d63031;
+}
+.shop-text-3, .shop-text-4{
+ font-weight: bold;
+}
+.shop-text-4{
+  color: black;
+}
+.shop-text:hover>.shop-text-2{
+  background-color: black;
+  transition: 1s;
+}
+.shop-text:hover>.shop-text-3{
+  background-color: black;
+  transition: 2s;
+}
+/* .......................kết thúc shop........................... */
+/* .......................blog.................................... */
+.blog-menu{
+  position: relative;
+}
+.blog-pd-menu{
+  margin-top: 1rem;
+}
+.blog-menu-small{
+  position: absolute;
+  box-shadow: 1px 1px 1px 1px #b2bec3;
+  visibility: hidden;
+}
+.blog-menu:hover>.blog-menu-small{
+  visibility: visible;
 }
