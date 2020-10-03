@@ -458,6 +458,40 @@ u {
   left: 28%;
   bottom: 30%;
 }
+
+/* .......................home..................................... */
+.home-menu{
+  position: relative;
+}
+.home-menu-small{
+  position: absolute;
+  box-shadow: 1px 1px 1px 1px #b2bec3;
+  width: 1490px;
+  height: 500px;
+  margin-top: 1.5rem;
+  left: -245%;
+  overflow: hidden;
+
+}
+.img-home{
+  width: 200px;
+  height: 135px;
+
+}
+.home-menu-mg{
+  margin-left: 8rem;
+  margin-top: 3rem;
+}
+.button-home-small{
+ margin-top: 3rem;
+ margin-left: 6rem;
+}
+.text-home{
+  color: #626262;
+}
+.text-home-litlle{
+  color: red;
+}
 /* .......................shop.................................... */
 .shop-menu{
   position: relative;
