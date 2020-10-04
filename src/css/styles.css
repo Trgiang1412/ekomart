@@ -85,7 +85,7 @@
   background: white;
   visibility: hidden;
 }
-.col-md-3:hover>.people-menu{
+.col-md-3:hover .people-menu{
   visibility: visible;
 }
 .user-text{
@@ -129,17 +129,18 @@
 .menu-little {
   background-color: #ef3636;
   color: white;
-  padding: 15px 30px;
+  padding: 15px 75px;
 }
-
+.big{
+  position: relative;
+}
+.big:hover .sub-menu{
+ visibility: visible;
+}
 .sub-menu {
-  visibility: hidden;
+ position: absolute;
+ visibility: hidden;
 }
-
-.big:hover > .sub-menu {
-  visibility: visible;
-}
-
 .btn-1 {
   background-color: var(--button-color);
   padding: 1rem 3rem;
@@ -174,7 +175,7 @@
   padding-top: 1rem;
 }
 
-.list-color:hover > .tack-1 {
+.list-color:hover .tack-1 {
   color: red;
 }
 
@@ -257,7 +258,6 @@ u {
 }
 
 /* menu 2.1 */
-
 .navbar-big-1 {
   position: relative;
 }
@@ -471,7 +471,12 @@ u {
   margin-top: 1.5rem;
   left: -245%;
   overflow: hidden;
+  display: none;
 
+  visibility: hidden;
+}
+.home-menu:hover .home-menu-small{
+ display: block;
 }
 .img-home{
   width: 200px;
@@ -492,6 +497,7 @@ u {
 .text-home-litlle{
   color: red;
 }
+/* .......................ket thuc home......................... */
 /* .......................shop.................................... */
 .shop-menu{
   position: relative;
@@ -503,10 +509,10 @@ u {
   height: 580px;
   left: -150%;
   overflow: hidden;
-  visibility: hidden;
+  display: none;
 }
-.shop-menu:hover>.shop-menu-small{
-  visibility: visible;
+.shop-menu:hover .shop-menu-small{
+  display: block;
 }
 .shop-menu-small-1, .shop-menu-small-2{
   margin-top: 2rem;
