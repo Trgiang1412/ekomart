@@ -71,30 +71,34 @@
 }
 /* ............form-user..................... */
 .fa-user {
-  position: relative;
-  z-index: 10;
   margin-left: 7rem;
+}
+.user-big{
+  position: relative;
 }
 .people-menu{
   position: absolute;
-  z-index: 300;
+  z-index: 3000;
+  width: 20rem;
   box-shadow: 1px 1px 1px 1px #b2bec3;
-  border-top: red;
-  margin-top: 1rem ;
-  left: -30%;
+  border-top: 5px solid red;
+  margin-top: 0.4rem ;
+  left: -130%;
   background: white;
   visibility: hidden;
+
 }
-.col-md-3:hover .people-menu{
+.user-big:hover .people-menu{
   visibility: visible;
 }
 .user-text{
  position: absolute;
  top: 5%;
+ left: 8%;
 }
 .user-text-1{
   position: absolute;
-  right: 0%;
+  right: 8%;
   top: 5%;
   color: red;
 }
@@ -106,18 +110,27 @@
 }
 .button-user{
   position: absolute ;
- padding: 5px 80px;
- left: 10%;
+ padding: 10px 114px;
+ left: 7%;
+
 }
 .link-user{
-  margin-top: 1rem;
+  margin-top: 2rem;
   color: red;
 }
-/* ............ket thuc form-user */
+/* ............ket thuc form-user......................................................... */
 .fa-heart {
   margin-left: 1rem;
 }
-
+.icon-sup{
+  color: white;
+  background: red;
+ 
+  border-radius: 50%;
+}
+.red-sup{
+  color: red;
+}
 .fa-shopping-basket {
   margin-left: 1rem;
 }
@@ -472,11 +485,10 @@ u {
   left: -245%;
   overflow: hidden;
   display: none;
-
   visibility: hidden;
 }
 .home-menu:hover .home-menu-small{
- display: block;
+ visibility: visible;
 }
 .img-home{
   width: 200px;
@@ -487,9 +499,10 @@ u {
   margin-left: 8rem;
   margin-top: 3rem;
 }
-.button-home-small{
- margin-top: 3rem;
- margin-left: 6rem;
+.button-menu{
+  position: absolute;
+  left: 40%;
+  bottom: 5%;
 }
 .text-home{
   color: #626262;
