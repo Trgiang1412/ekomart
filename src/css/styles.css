@@ -119,20 +119,26 @@
   color: red;
 }
 /* ............ket thuc form-user......................................................... */
-.fa-heart {
+.fa-heart, .fa-shopping-basket {
+  position: relative;
   margin-left: 1rem;
 }
-.icon-sup{
+.icon-sup-1, .icon-sup-2{
+  position: absolute;
+  left: 100%;
   color: white;
+  width: 15px;
+  height: 20px;
   background: red;
- 
   border-radius: 50%;
+  text-align: center;
+  padding-top: 0.6rem;
+}
+.icon-sup-2{
+  left: 40%;
 }
 .red-sup{
   color: red;
-}
-.fa-shopping-basket {
-  margin-left: 1rem;
 }
 
 .XO {
