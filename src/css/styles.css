@@ -495,6 +495,9 @@ u {
   height: 135px;
 
 }
+.img-home:hover {
+ transform: translateY(-20px);
+}
 .home-menu-mg{
   margin-left: 8rem;
   margin-top: 3rem;
