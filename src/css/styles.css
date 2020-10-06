@@ -73,57 +73,57 @@
 .fa-user {
   margin-left: 7rem;
 }
-.user-big{
+.user-big {
   position: relative;
 }
-.people-menu{
+.people-menu {
   position: absolute;
   z-index: 3000;
   width: 20rem;
   box-shadow: 1px 1px 1px 1px #b2bec3;
   border-top: 5px solid red;
-  margin-top: 0.4rem ;
+  margin-top: 0.4rem;
   left: -130%;
   background: white;
   visibility: hidden;
-
 }
-.user-big:hover .people-menu{
+.user-big:hover .people-menu {
   visibility: visible;
 }
-.user-text{
- position: absolute;
- top: 5%;
- left: 8%;
+.user-text {
+  position: absolute;
+  top: 5%;
+  left: 8%;
 }
-.user-text-1{
+.user-text-1 {
   position: absolute;
   right: 8%;
   top: 5%;
   color: red;
 }
-.user-text-1:hover{
+.user-text-1:hover {
   text-decoration: underline red;
 }
-.form-user{
+.form-user {
   margin-top: 2rem;
 }
-.button-user{
-  position: absolute ;
- padding: 10px 114px;
- left: 7%;
-
+.button-user {
+  position: absolute;
+  padding: 10px 114px;
+  left: 7%;
 }
-.link-user{
+.link-user {
   margin-top: 2rem;
   color: red;
 }
 /* ............ket thuc form-user......................................................... */
-.fa-heart, .fa-shopping-basket {
+.fa-heart,
+.fa-shopping-basket {
   position: relative;
   margin-left: 1rem;
 }
-.icon-sup-1, .icon-sup-2{
+.icon-sup-1,
+.icon-sup-2 {
   position: absolute;
   left: 100%;
   color: white;
@@ -134,10 +134,10 @@
   text-align: center;
   padding-top: 0.6rem;
 }
-.icon-sup-2{
+.icon-sup-2 {
   left: 40%;
 }
-.red-sup{
+.red-sup {
   color: red;
 }
 
@@ -150,15 +150,15 @@
   color: white;
   padding: 15px 75px;
 }
-.big{
+.big {
   position: relative;
 }
-.big:hover .sub-menu{
- visibility: visible;
+.big:hover .sub-menu {
+  visibility: visible;
 }
 .sub-menu {
- position: absolute;
- visibility: hidden;
+  position: absolute;
+  visibility: hidden;
 }
 .btn-1 {
   background-color: var(--button-color);
@@ -292,12 +292,10 @@ u {
   overflow: hidden;
   border: none;
   visibility: hidden;
- 
 }
 
 .navbar-big-1:hover > .navbar-small-1 {
   visibility: visible;
-
 }
 
 .image {
@@ -479,10 +477,10 @@ u {
 }
 
 /* .......................home..................................... */
-.home-menu{
+.home-menu {
   position: relative;
 }
-.home-menu-small{
+.home-menu-small {
   position: absolute;
   box-shadow: 1px 1px 1px 1px #b2bec3;
   width: 1490px;
@@ -493,38 +491,37 @@ u {
   display: none;
   visibility: hidden;
 }
-.home-menu:hover .home-menu-small{
- visibility: visible;
+.home-menu:hover .home-menu-small {
+  visibility: visible;
 }
-.img-home{
+.img-home {
   width: 200px;
   height: 135px;
-
 }
 .img-home:hover {
- transform: translateY(-20px);
+  transform: translateY(-20px);
 }
-.home-menu-mg{
+.home-menu-mg {
   margin-left: 8rem;
   margin-top: 3rem;
 }
-.button-menu{
+.button-menu {
   position: absolute;
   left: 40%;
   bottom: 5%;
 }
-.text-home{
+.text-home {
   color: #626262;
 }
-.text-home-litlle{
+.text-home-litlle {
   color: red;
 }
 /* .......................ket thuc home......................... */
 /* .......................shop.................................... */
-.shop-menu{
+.shop-menu {
   position: relative;
 }
-.shop-menu-small{
+.shop-menu-small {
   position: absolute;
   box-shadow: 1px 1px 1px 1px #b2bec3;
   width: 800px;
@@ -533,80 +530,81 @@ u {
   overflow: hidden;
   display: none;
 }
-.shop-menu:hover .shop-menu-small{
+.shop-menu:hover .shop-menu-small {
   display: block;
 }
-.shop-menu-small-1, .shop-menu-small-2{
+.shop-menu-small-1,
+.shop-menu-small-2 {
   margin-top: 2rem;
   padding-left: 2rem;
 }
-.text-13{
+.text-13 {
   font-size: 22px;
   font-weight: 400;
   margin-left: 1.5rem;
-
 }
-.shop-menu-list-1{
+.shop-menu-list-1 {
   margin-left: 3.5rem;
 }
-.img-4{
+.img-4 {
   position: absolute;
   z-index: 40;
   left: 15%;
   top: 45%;
-
 }
-.mg-t{
+.mg-t {
   margin-top: 0.5rem;
 }
-.shop-text{
+.shop-text {
   margin-left: 7rem;
   margin-top: 2rem;
   z-index: 50;
 }
-.shop-text-1{
+.shop-text-1 {
   font-size: 12px;
 }
-.shop-text-2, .shop-text-3{
+.shop-text-2,
+.shop-text-3 {
   font-size: 25px;
   color: #d63031;
 }
-.shop-text-3, .shop-text-4{
- font-weight: bold;
+.shop-text-3,
+.shop-text-4 {
+  font-weight: bold;
 }
-.shop-text-4{
+.shop-text-4 {
   color: black;
 }
-.shop-text:hover>.shop-text-2{
+.shop-text:hover > .shop-text-2 {
   background-color: black;
   transition: 1s;
 }
-.shop-text:hover>.shop-text-3{
+.shop-text:hover > .shop-text-3 {
   background-color: black;
   transition: 2s;
 }
 /* .......................kết thúc shop........................... */
 /* .......................blog.................................... */
-.blog-menu{
+.blog-menu {
   position: relative;
 }
-.blog-pd-menu{
+.blog-pd-menu {
   margin-top: 1rem;
 }
-.blog-menu-small{
+.blog-menu-small {
   position: absolute;
   box-shadow: 1px 1px 1px 1px #b2bec3;
   visibility: hidden;
 }
-.blog-menu:hover>.blog-menu-small{
+.blog-menu:hover > .blog-menu-small {
   visibility: visible;
 }
 /* ..................hết blog.................................... */
 /* ..........................bắt đầu page......................... */
-.pages-menu{
+.pages-menu {
   position: relative;
 }
-.pages-menu-small{
+.pages-menu-small {
   position: absolute;
   box-shadow: 1px 1px 1px 1px #b2bec3;
   padding-top: 1rem;
@@ -616,33 +614,69 @@ u {
   overflow: hidden;
   visibility: hidden;
 }
-.pages-menu:hover>.pages-menu-small{
+.pages-menu:hover > .pages-menu-small {
   visibility: visible;
 }
-.img-5{
+.img-5 {
   position: absolute;
   z-index: 50;
   left: 16%;
   bottom: 0%;
 }
-.pages-text{
+.pages-text {
   z-index: 60;
   margin-top: 3rem;
   margin-left: 5rem;
 }
-.pages-text-1{
+.pages-text-1 {
   font-size: 13px;
 }
-.pages-text-2{
+.pages-text-2 {
   font-size: 27px;
   color: #e17055;
 }
-.pages-text-3{
+.pages-text-3 {
   font-size: 27px;
   color: #e17055;
   font-weight: bold;
 }
-.pages-text-4{
+.pages-text-4 {
   color: black;
   font-weight: bold;
+}
+/* ..........................ket thuc menu tổng................................................ */
+/* ..........................băt đầu slides.................................................... */
+.slide-total {
+  position: relative;
+  z-index: 50;
+  width: 850px;
+  height: 580px;
+  background: #ecf0f1;
+  overflow: hidden;
+  margin-top: 2rem;
+ 
+}
+.slides-box-1 {
+  position: absolute;
+  display: block;
+}
+.img-slide {
+  z-index: 8;
+  transform: scale(1, 0.7071);
+  color: rgb(255, 255, 255);
+  width: 656px; 
+  margin-left: 53rem;
+  animation: trgiang 1s infinite ease-in-out;
+}
+.img-block {
+  height: 100%;
+  width: 100%;
+  transform: translateX(-40rem);
+  transition: 2s;
+}
+.text-slide{
+  position: absolute;
+  color: black;
+  top: 0;
+  left:-20%;
 }
