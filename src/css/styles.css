@@ -646,37 +646,35 @@ u {
 }
 /* ..........................ket thuc menu tổng................................................ */
 /* ..........................băt đầu slides.................................................... */
-.slide-total {
+.carousel-item{
   position: relative;
-  z-index: 50;
-  width: 850px;
+  width: 800px;
   height: 580px;
-  background: #ecf0f1;
-  overflow: hidden;
   margin-top: 2rem;
- 
+  background: pink;
+  overflow: hidden;
+  margin-left: 5rem;
 }
-.slides-box-1 {
+.d-block{
   position: absolute;
-  display: block;
+  width: 600px;
+  height: 400px;
+  left: 100%;
+  bottom: 10%;
+  transform: translateX(-37rem);
+  transition:1s ease-in-out ;
 }
-.img-slide {
-  z-index: 8;
-  transform: scale(1, 0.7071);
-  color: rgb(255, 255, 255);
-  width: 656px; 
-  margin-left: 53rem;
-  animation: trgiang 1s infinite ease-in-out;
-}
-.img-block {
-  height: 100%;
-  width: 100%;
-  transform: translateX(-40rem);
-  transition: 2s;
-}
-.text-slide{
+.text-slide-box-1{
   position: absolute;
+  top: 15%;
+  left: -30%;
   color: black;
-  top: 0;
-  left:-20%;
+  overflow: hidden;
+}
+.sale-text{
+  
+  border-radius: 5px;
+  background: #2ecc71;
+  font-weight: bold;
+  color: white;
 }
