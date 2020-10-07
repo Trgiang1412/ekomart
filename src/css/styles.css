@@ -648,21 +648,20 @@ u {
 /* ..........................băt đầu slides.................................................... */
 .carousel-item{
   position: relative;
-  width: 800px;
-  height: 580px;
+  width: 850px;
+  height: 625px;
   margin-top: 2rem;
   background: pink;
   overflow: hidden;
-  margin-left: 5rem;
+  margin-left: 6rem;
 }
 .d-block{
   position: absolute;
-  width: 600px;
-  height: 400px;
-  left: 100%;
+  width: 650px;
+  height: 470px;
+  left: 25%;
   bottom: 10%;
-  transform: translateX(-37rem);
-  transition:1s ease-in-out ;
+  transition: 10s;
 }
 .text-slide-box-1{
   position: absolute;
@@ -672,9 +671,14 @@ u {
   overflow: hidden;
 }
 .sale-text{
-  
   border-radius: 5px;
-  background: #2ecc71;
   font-weight: bold;
   color: white;
+}
+.ready-text{
+  font-size: 25px;
+  margin-right: 3.5rem;
+}
+.text-play{
+  margin-right: 1rem;
 }
