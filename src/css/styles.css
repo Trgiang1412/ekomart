@@ -682,3 +682,16 @@ u {
 .text-play{
   margin-right: 1rem;
 }
+/* .......................................................................................................... */
+.card-big{
+  position: relative;
+  width: 400px;
+  height: 296px;
+  background: #dcdde1;
+  margin-top: 2rem;
+}
+.img-card{
+  position: absolute;
+  left: 50%;
+  top: 17%;
+}
